@@ -48,6 +48,10 @@ img {
   display: block;
 }
 
+.bg::selection {
+  background-color: red;
+}
+
 /* ----------------HEADER----------------- */
 
 .header {
@@ -160,6 +164,14 @@ img {
   padding: 200px 0px 200px;
   text-align: center;
   background-color: #2f303a;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)
+    ), 
+    url(../images/bg-index-hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .title-first {
@@ -183,10 +195,6 @@ img {
   border-color: transparent;
   border-radius: 4px;
 }
-
-/* .list-item {
-  align-items: center;
-} */
 
 .visually-hidden {
   position: absolute;
