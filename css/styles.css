@@ -172,6 +172,9 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-first {
