@@ -247,7 +247,7 @@ img {
 } 
 
 
-/* --------------BENEFITS---------- */
+/* ----------------------BENEFITS------------------------ */
 
 .pictures-wrap {
   display: flex; 
@@ -298,6 +298,17 @@ img {
   column-gap: 30px;
 }
 
+.benefits-image {
+  content: '';
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  /* background-size: cover; */
+  /* display: flex; */
+  padding: 25px 102.34px;
+  margin-bottom: 30px;
+}
+
+
 .title-benefits {
   margin-bottom: 10px;
   font-size: 16px;
@@ -305,8 +316,22 @@ img {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);
+  color: var(--main-text-color);  
 }
+
+
+
+/* .benefits-list::before {
+  content: '';
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  background-image: url(../images/antenna\ 1.png);
+  background-size: cover;
+} */
 
 .sub-title {
   font-style: normal;
