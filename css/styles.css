@@ -437,17 +437,18 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-soc-link {
-  width: 44px;
-  height: 44px;
+/* .team-soc-link {
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
-}
+  
+} */
+
 .team-soc-list {
-  width: 100%;
-  height: 100%;
+  width: 44px;
+  height: 44px;
+  
 display: flex;
 justify-content: center;
 gap: 10px;
@@ -469,6 +470,9 @@ gap: 10px;
   border-radius: 50%;
 }
 
+.team-soc-icon {
+  fill: #AFB1B8;
+}
 
 /* ---------------CONTACTS------------------- */
 
