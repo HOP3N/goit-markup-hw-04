@@ -146,9 +146,16 @@ img {
 .list-header-contacts {
   display: flex;
   align-items: center;
-  gap: 50px;
+  /* gap: 50px; */
   margin-left: 344px;
   justify-content: flex-end;
+}
+
+.list-header-contacts,
+.list-item:hover,
+:focus {
+  color: var(--text-hover-color);
+  background-color: transparent;
 }
 
 .contact-mail,
@@ -159,16 +166,28 @@ img {
   fill: currentColor;
 }
 
+.contact-mail {
+  margin-right: 30px;
+}
+
 .contact-image {
   text-align: center;
   display: flex;
   align-items: center;
-  
+  gap: 10px;
   color: var(--text-contact);
   fill: currentColor;
 }
 
+.contact-image:hover,
+:focus {
+  color: var(--text-hover-color);
+  background-color: transparent;
+}
 
+.image-pic {
+  
+}
 
 /* --------------HERO---------------- */
 
