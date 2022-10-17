@@ -477,6 +477,7 @@ img {
   margin-bottom: 30px;
   justify-content: center;
   gap: 10px;
+  /* fill: #AFB1B8; */
 }
 
 .team-soc-link {
@@ -489,21 +490,24 @@ img {
   fill: #AFB1B8;
 }
 
+.team-soc-icon {
+  fill: #AFB1B8; 
+}
+
+.team-soc-link {
+
+}
+
 .team-soc-link:hover,
-:focus {
+.team-soc-link:focus {
   fill: var(--sub-text-color); 
   background-color: var(--text-hover-color);
- 
 }
 
-.team-soc-icon {
-  
-}
-
-/* .team-soc-icon:hover,
-:focus {
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon{
   fill: var(--sub-text-color); 
-} */
+}
 
 /* -----------------CLIENTS------------- */
 
@@ -551,8 +555,9 @@ img {
   padding-bottom: 60px;
 }
 
-/* .logo-footer {
-} */
+.footer-contacts {
+  
+}
 
 .logo-footer-blue {
   font-family: "Raleway", sans-serif;
@@ -596,15 +601,38 @@ img {
 }
 /* ------SOC LINKS----------------- */
 
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contacts {
+  justify-content: start;
+  align-items: center;
+  }
+
+.footer-soc {
+  flex-direction: column;
+  align-content: center;
+  /* align-items: center; */
+  display: flex;
+  margin-left: 70px;
+}
+
 .title-soc-footer {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--sub-text-color);
+  margin-bottom: 20px;
+  justify-content: flex;
+}
+  .team-soc-list {
   align-content: center;
   align-items: center;
-}
+  display: flex;
+  }
 
 .team-soc-item {
   align-content: center;
@@ -616,4 +644,7 @@ img {
   fill: var(--sub-text-color);
 }
 .team-soc-icon {
+  align-content: center;
+  align-items: center;
+  display: flex;
 }
