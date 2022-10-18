@@ -179,15 +179,44 @@ img {
   fill: currentColor;
 }
 
-.contact-image:hover,
-:focus {
+/* .list-item:hover,
+.list-item:focus {
+  color: var(--text-hover-color);
+  background-color: transparent;
+} */
+
+.list-item:hover .contact-mail,
+.list-item:focus .contact-mail {
   color: var(--text-hover-color);
   background-color: transparent;
 }
 
-.image-pic {
-  
+.list-item:hover .contact-number,
+.list-item:focus .contact-number {
+  color: var(--text-hover-color);
+  background-color: transparent;
 }
+
+/* }{
+  color: var(--text-hover-color);
+  background-color: transparent;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  fill: var(--sub-text-color); 
+  background-color: var(--text-hover-color);
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon{
+  fill: var(--sub-text-color); 
+} */
+/* .list-cont:hover .image-pic,
+.list-cont:focus .image-pic {
+  color: var(--text-hover-color);
+  background-color: transparent;
+} */
 
 /* --------------HERO---------------- */
 
