@@ -60,7 +60,7 @@ img {
 }
 
 .header-port {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -214,11 +214,11 @@ img {
 .contacts-icon-link:hover,
 .contacts-icon-link:focus {
   fill: var(--text-hover-color);
-  } 
-  
+}
+
 .cont-pic-list:hover,
 .cont-pic-list:focus {
-  fill: var(--text-hover-color)
+  fill: var(--text-hover-color);
 }
 
 .contacts-icon-link:hover .contacts-icon,
@@ -242,9 +242,9 @@ img {
   text-align: center;
   background-color: #2f303a;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)
-    ), 
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/bg-index-hero.png);
   background-size: cover;
   background-position: center;
@@ -292,9 +292,9 @@ img {
 }
 
 .btn-main-wrap {
-  display: flex; 
+  display: flex;
   gap: 8px;
-  justify-content:center;
+  justify-content: center;
   margin-top: 94px;
   margin-bottom: 56px;
 }
@@ -312,7 +312,7 @@ img {
   text-align: center;
   color: var(--main-text-color);
   cursor: pointer;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   border-color: transparent;
 }
@@ -323,16 +323,14 @@ img {
   background-color: transparent;
   color: var(--sub-text-color);
   background-color: var(--text-hover-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px
-  rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-} 
-
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 /* ----------------------BENEFITS------------------------ */
 
 .pictures-wrap {
-  display: flex; 
+  display: flex;
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
@@ -342,14 +340,19 @@ img {
 
 .list-item-portfolio {
   list-style: none;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
   width: 370px;
+}
+
+.list-item-portfolio:hover,
+:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .item-wrap {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: 0;
 }
 
@@ -364,8 +367,8 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color:var(--main-text-color);
-  }
+  color: var(--main-text-color);
+}
 
 .sub-title-port {
   margin-top: 4px;
@@ -381,8 +384,8 @@ img {
 }
 
 .benefits-image {
-  content: '';
-  background-color: #F5F4FA;
+  content: "";
+  background-color: #f5f4fa;
   border-radius: 4px;
   /* background-size: cover; */
   /* display: flex; */
@@ -404,10 +407,8 @@ img {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);  
+  color: var(--main-text-color);
 }
-
-
 
 /* .benefits-list::before {
   content: '';
@@ -428,7 +429,6 @@ img {
   color: var(--text-contact);
   max-width: 322px;
 }
-
 
 /* -----------------SERVICES-------------------- */
 
@@ -540,26 +540,25 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  fill: #AFB1B8;
+  /* fill: #AFB1B8; */
 }
 
 .team-soc-icon {
-  fill: #AFB1B8; 
+  fill: #afb1b8;
 }
 
 .team-soc-link {
-
 }
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  fill: var(--sub-text-color); 
+  fill: var(--sub-text-color);
   background-color: var(--text-hover-color);
 }
 
 .team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon{
-  fill: var(--sub-text-color); 
+.team-soc-link:focus .team-soc-icon {
+  fill: var(--sub-text-color);
 }
 
 /* -----------------CLIENTS------------- */
@@ -568,37 +567,49 @@ img {
   display: flex;
   justify-content: center;
   gap: 30px;
-  
- 
 }
 
-.clients-logo-item {
-  
-}
+/* .clients-logo-item:hover,
+.clients-logo-item:focus {
+    fill: var(--text-hover-color);
+  } 
+
+  .clients-logo-item:hover .clients-logo,
+  .clients-logo-item:focus .clients-logo {
+    fill: var(--text-hover-color);
+} */
 
 .clients-logo-link {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-
-  .clients-logo-link:hover,
-  .clients-logo-link:focus {
-    border-color: var(--text-hover-color);
-  } 
-  
-  .clients-logo-link:hover .clients-logo,
-  .clients-logo-link:focus .clients-logo {
-    fill: var(--text-hover-color);
 }
+
+.clients-logo-link:hover,
+.clients-logo-link:focus {
+  border-color: var(--text-hover-color);
+  fill: var(--text-hover-color);
+}
+
 .clients-logo {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
+.clients-logo-link:hover .clients-logo,
+.clients-logo-link:focus .clients-logo {
+  fill: var(--text-hover-color);
+  background-color: transparent;
+}
+
+.clients-logo:hover,
+:focus {
+  fill: var(--text-hover-color);
+  background-color: transparent;
+}
 
 /* ---------------CONTACTS------------------- */
 
@@ -609,7 +620,6 @@ img {
 }
 
 .footer-contacts {
-  
 }
 
 .logo-footer-blue {
@@ -662,7 +672,7 @@ img {
 .footer-contacts {
   justify-content: start;
   align-items: center;
-  }
+}
 
 .footer-soc {
   flex-direction: column;
@@ -673,7 +683,7 @@ img {
 }
 
 .title-soc-footer {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -681,11 +691,11 @@ img {
   margin-bottom: 20px;
   justify-content: flex;
 }
-  .team-soc-list {
+.team-soc-list {
   align-content: center;
   align-items: center;
   display: flex;
-  }
+}
 
 .team-soc-item {
   align-content: center;
@@ -696,8 +706,9 @@ img {
 .team-soc-link {
   fill: var(--sub-text-color);
 }
-.team-soc-icon {
+.team-soc-icon-footer {
   align-content: center;
   align-items: center;
   display: flex;
+  fill: var(--sub-text-color);
 }
