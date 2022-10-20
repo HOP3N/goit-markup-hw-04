@@ -344,10 +344,12 @@ img {
   width: 370px;
 }
 
-.list-item-portfolio:hover,
+.portfolio-item-link:hover,
 :focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .item-wrap {
@@ -384,12 +386,13 @@ img {
 }
 
 .benefits-image {
-  content: "";
+  width: 270px;
+  height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  /* background-size: cover; */
-  /* display: flex; */
-  padding: 25px 102.34px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   margin-bottom: 30px;
 }
 
@@ -527,7 +530,6 @@ img {
 .team-soc-item {
   width: 44px;
   height: 44px;
-  margin-bottom: 30px;
   justify-content: center;
   gap: 10px;
   /* fill: #AFB1B8; */
@@ -666,7 +668,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline ;
 }
 
 .footer-contacts {
