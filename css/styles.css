@@ -640,7 +640,6 @@ img {
 .clients-logo:hover,
 :focus {
   fill: var(--text-hover-color);
-  background-color: transparent;
 }
 
 /* ---------------CONTACTS------------------- */
